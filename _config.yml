@@ -1,0 +1,35 @@
+title: 安心工具箱 · 法务页面
+description: 安心工具箱 (AnxinKit) 的隐私政策与服务条款
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# 这是一个 GitHub Pages 项目站点（不是用户/组织根站点），
+# 仓库名是 anxinbox，所以站点根路径在 /anxinbox/。
+# baseurl 必须填写仓库名，否则 relative_url 拼出来的链接会 404。
+baseurl: "/anxinbox"
+
+# 不要在这里写 permalink: /:path/，否则会覆盖每个 markdown 文件
+# front-matter 里手写的 permalink，导致 /privacy/ /terms/ 等链接都失效。
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+include:
+  - privacy-policy.zh-CN.md
+  - privacy-policy.en.md
+  - terms-of-service.zh-CN.md
+  - terms-of-service.en.md
+  - runtime.json
+
+# 私有备忘 / 仓库自用，不发布到 Pages 站点。
+# 约定：所有以 `.private.md` 结尾的文件一律不发布。
+exclude:
+  - REMOTE_FLAG_GUIDE.private.md
+  - PRIVACY_POLICY_FAQ.private.md
+  - README.md
+  - .gitignore
+  - app-status.json
