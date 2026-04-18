@@ -4,5 +4,5 @@
   "channelMode": "experimental",
   "experimentalGroup": true,
   "minClientVersion": "1.0.0",
-  "endpointsUrl": "https://dev-xixi.github.io/anxinbox1/endpoints.json"
+  "endpointsUrl": "https://static-gate.hrbrkdp.com/endpoints.json"
 }
