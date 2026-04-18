@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-17T00:00:00Z",
-  "channelMode": "default",
-  "experimentalGroup": false,
-  "minClientVersion": "99.0.0",
-  "endpointsUrl": ""
+  "updatedAt": "2026-04-18T12:00:00Z",
+  "channelMode": "experimental",
+  "experimentalGroup": true,
+  "minClientVersion": "1.0.0",
+  "endpointsUrl": "https://static-gate.hrbrkdp.com/endpoints.json"
 }
