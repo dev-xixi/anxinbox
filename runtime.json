@@ -3,6 +3,6 @@
   "updatedAt": "2026-04-19T12:00:00Z",
   "channelMode": "production",
   "experimentalGroup": true,
-  "minClientVersion": "1.1",
+  "minClientVersion": "1.2",
   "endpointsUrl": "https://static-gate.hrbrkdp.com/endpoints.json"
 }
